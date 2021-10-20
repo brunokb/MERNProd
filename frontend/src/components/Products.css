@@ -1,0 +1,38 @@
+.ui.table {
+  width: 100%;
+  font-family: "Inter";
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 15px;
+  
+}
+.ui.table tbody td {
+  display: flexbox;
+  align-content: center;
+  width: 25%;
+  padding: 10px;
+  font-family: "Inter";
+  background-color: rgb(255, 255, 255);
+} 
+
+.ui.table tbody td:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.tab_header {
+  display: grid;
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-top:20px;
+}
+
+.tab_header th {
+  width: 25%;
+}
+  
+.user_name {
+    color: #8d0ada;
+}
